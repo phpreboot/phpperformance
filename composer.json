@@ -1,0 +1,17 @@
+{
+    "name": "phpunit/phpperformance",
+    "description": "Few example code to check performance of PHP functions.",
+    "require": {
+        "phpreboot/stopwatch": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kapilsharma",
+            "email": "kapil@kapilsharma.info"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"Phpreboot\\": "src/Phpreboot"}
+    }
+}

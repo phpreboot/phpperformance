@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6ab92b60886215f72ca0fcba103fcdcb",
+    "content-hash": "ab8e2963c9a97f29c9c57f30a578f1a0",
+    "packages": [
+        {
+            "name": "phpreboot/stopwatch",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpreboot/stopwatch.git",
+                "reference": "3ebd6e1b12308af5991b549a3701d3b3a424adf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpreboot/stopwatch/zipball/3ebd6e1b12308af5991b549a3701d3b3a424adf2",
+                "reference": "3ebd6e1b12308af5991b549a3701d3b3a424adf2",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "^3",
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phpreboot\\": "src/PhpReboot"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kapilsharma",
+                    "email": "kapil@kapilsharma.info",
+                    "homepage": "http://blog.kapilsharma.info",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP utility library for Stopwatch. Useful for optimization and other purpose.",
+            "keywords": [
+                "stopwatch",
+                "timer"
+            ],
+            "time": "2015-09-26 20:32:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
