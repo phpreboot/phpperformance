@@ -12,6 +12,6 @@
         }
     ],
     "autoload": {
-      "psr-4": {"Phpreboot\\": "src/Phpreboot"}
+      "psr-4": {"Phpreboot\\": "examples/Phpreboot"}
     }
 }
